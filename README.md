@@ -77,13 +77,13 @@ class Task(models.Model):
 Now create the database migration script that Django uses to update the database with changes.
 
 ```bash
-python manage.py makemigrations
+$ python manage.py makemigrations
 ```
 
 Then you can apply the migration to the database.
 
 ```bash
-python manage.py migrate
+$ python manage.py migrate
 ```
 
 ## Access to the data
@@ -156,8 +156,8 @@ DRF takes care of mapping the URLs and HTTP methods(list, retrieve, create, upda
 
 ## Running the application
 
-```python
-python manage.py runserver
+```bash
+$ python manage.py runserver
 ```
 
 - Now we can access the application at the following URL: `http://127.0.0.1:8000/api/`
